@@ -1,0 +1,12 @@
+manzanas = int(input())
+
+if manzanas % 2 == 0:
+    print(manzanas/2) 
+else:
+    print((manzanas*3)+1)
+    
+
+
+
+
+

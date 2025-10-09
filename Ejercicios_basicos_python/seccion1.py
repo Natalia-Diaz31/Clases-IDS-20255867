@@ -1,5 +1,5 @@
 Name = "Natalia"
-#print(Name)
+print(Name)
 
 Edad = 20 
 Ciudad = "Santa Tecla"
@@ -17,6 +17,6 @@ Edad = anio_actual - anio_nacimiento
 print (Edad)
 
 Pi = 3.14159265359
-print (f"El valor de Pi es {Pi:.4f}") #el .2f me permite limitar a 4 decimales
+print (f"El valor de Pi es {Pi:.4f}") #el .4f me permite limitar a 4 decimales
 
-#La diferencia entre una variable de tipo entero y una variable de tipo cadena es que la variable de tipo entero solo puede contener números enteros, mientras que la variable de tipo cadena puede contener cualquier tipo de carácter, incluyendo letras, números y símbolos.
+#La diferencia entre una variable de tipo entero (int) y una variable de tipo cadena (string) es que la variable de tipo entero solo puede contener números enteros, mientras que la variable de tipo cadena puede contener cualquier tipo de carácter, incluyendo letras, números y símbolos python lo tomara como texto.

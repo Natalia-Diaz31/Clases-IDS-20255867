@@ -1,8 +1,8 @@
 my_string = "ABCDEFGHI" #sring , cadena de caracteres 
-""" ItemIngresar  = input("Ingrese el item : ")
+ItemIngresar  = input("Ingrese el item : ")
 print(f"el item ingresado es {ItemIngresar}") 
 letra = int(input("Indique el indice de la leta a mostrar (del 0 al 4) : ")) 
-#print(len(my_string))  """
+#print(len(my_string)) 
 #print(len(my_string))  
 
 #print ("O" in my_string)
