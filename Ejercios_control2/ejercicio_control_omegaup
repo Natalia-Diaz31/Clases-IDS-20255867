@@ -1,0 +1,16 @@
+"""Crear una lista con los cinco días laborales de la semana en español. Usando inputs, vas a rellenar los elementos de la lista con los productos vendidos en cada día. 
+Luego, por cada día, muestra un mensaje siguiendo exactamente esta estructura:
+El día LUNES se vendieron 123 productos"""
+
+dias = ["lunes","martes","miercoles","jueves","viernes"]
+lu = int(input())
+ma = int(input())
+mi = int(input())
+ju = int(input())
+vi = int(input())
+print(f"El día {dias[0].upper()} se vendieron {lu} productos")
+print(f"El día {dias[1].upper()} se vendieron {ma} productos")
+print(f"El día {dias[2].upper()} se vendieron {mi} productos")
+print(f"El día {dias[3].upper()} se vendieron {ju} productos")
+print(f"El día {dias[4].upper()} se vendieron {vi} productos")
+
