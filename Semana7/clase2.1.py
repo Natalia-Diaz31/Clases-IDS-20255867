@@ -1,0 +1,13 @@
+nombre = ["Ana", "Antonio","Ana","jose","carlos"]
+print(nombre.append("Abby"))
+print(nombre)
+nombre.insert(2,"Jorge")
+print(nombre)
+posicion = int(input("Posicion sustituir: "))
+nombre[posicion] = input("Nuevo nombre sustituir: ")
+print(nombre)
+nombre.remove("carlos")
+print(nombre)
+nombre_borrado = nombre.pop(3)
+print(f"Nombre borrado: {nombre_borrado}")
+print(nombre)
